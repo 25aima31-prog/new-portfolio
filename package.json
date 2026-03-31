@@ -1,0 +1,27 @@
+{
+  "name": "m-balaji-portfolio",
+  "version": "1.0.0",
+  "description": "M Balaji's full-stack developer portfolio with Node.js, Express, and MongoDB",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "fullstack",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "M Balaji",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "isomorphic-git": "^1.37.4",
+    "mongoose": "^9.3.2"
+  }
+}
